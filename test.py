@@ -6,4 +6,4 @@ while True:
     except ValueError:
         print("Input yang Anda masukkan salah. Harap masukkan bilangan bulat.")
 
-print("haha")
+print("hahahihi")
