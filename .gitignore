@@ -1,3 +1,4 @@
-* /__*
-*/games/__*
+__pycache__/libs.cpython-312.pyc
+games/__pycache__/jualan.cpython-312.pyc
+games/__pycache__/tikus.cpython-312.pyc
 .gitignore
