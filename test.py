@@ -5,3 +5,5 @@ while True:
         break
     except ValueError:
         print("Input yang Anda masukkan salah. Harap masukkan bilangan bulat.")
+
+print("haha")
