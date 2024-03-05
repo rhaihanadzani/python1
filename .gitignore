@@ -1,2 +1,3 @@
-Tebak Tebak/__*
-Tebak Tebak/games/__*
+* /__*
+*/games/__*
+.gitignore
