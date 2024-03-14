@@ -2,3 +2,4 @@
 /games/__*
 .gitignore
 test.py
+.venv

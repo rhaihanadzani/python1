@@ -1,4 +1,5 @@
 import random
+import os
 
 
 def start():
@@ -30,16 +31,19 @@ def start():
                 print("Input yang Anda masukkan salah. Harap masukkan nomor antara 1 dan 4.")
 
         confirm_answer = input(f"Apakah Anda yakin ingin memilih {input_user}? (y/n): ")
+        os.system("clear")
         if confirm_answer == "n":
             break
         elif confirm_answer == "y":
             if posisiTikus == input_user:
-                print(f"==Selamat Anda Menang==\nPosisi tikus: {goa_tikus}")
+                print(f"\n==Selamat Anda Menang==\n\nPosisi tikus: {goa_tikus}")
             else:
                 print(f"==Maaf Anda Kalah==\nPosisi tikus: {goa_tikus}")
 
 
             play_again = input("Apakah ingin melanjutkan? (y/n): ")
+            os.system("clear")
+            
             if play_again == "n":
                 break
             elif play_again == "y":
